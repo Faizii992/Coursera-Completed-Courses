@@ -1,1 +1,10 @@
 
+NOTE (12/30/2023): A recent update in Google Colab disables the use of GPUs for the required Tensorflow version in this course. With that, you might notice a slow training time *per epoch* (e.g. 5 minutes per epoch). While we update the grader, please use the fallback runtime instead so you can use the GPU and have faster training. You can find the instructions here
+
+. 
+
+Please complete the tasks in this homework colab
+
+. Then go back to this page to upload your saved model for evaluation, note that this model should be a h5 file called model.h5.
+
+Your model will be used to predict handwritten digits which will be compared with the true values of the same digits. Your grade will be computed based on the average iou score that is achieved by your model when compared against the true segments.  At least an average iou score of 0.6 is required for you to pass this assignment.
