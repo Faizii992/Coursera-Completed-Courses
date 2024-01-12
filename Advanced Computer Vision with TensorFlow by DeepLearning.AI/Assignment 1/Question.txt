@@ -1,1 +1,10 @@
+Please complete the tasks in the homework notebook here. Afterwards, you will save the model and upload it to the grader in this page, note that this model should be a h5 file called birds.h5.
 
+Your model will be used to predict bounding boxes for some birds which will be compared with reference boxes of the same bird images. Your grade will be computed based on the proportion of images that achieved an iou score greater or equal to 0.5 with the reference boxes.  At least a 45% proportion is required for you to pass this assignment.
+
+Good luck!
+
+If you have any questions about the assignments in this course, you can ask for assistance in our community. If you haven't yet, 
+please click here and follow the instructions so you can join!
+
+NOTE (12/30/2023): A recent update in Google Colab disables the use of GPUs for the required Tensorflow version in this course. With that, you might notice a slow training time *per epoch* (e.g. 5 minutes per epoch). While we update the grader, please use the fallback runtime instead so you can use the GPU and have faster training. You can find the instructions here.
